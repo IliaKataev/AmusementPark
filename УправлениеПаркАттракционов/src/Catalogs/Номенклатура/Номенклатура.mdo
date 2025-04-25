@@ -53,10 +53,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="74ea0358-9b2c-4e4c-a7ec-bd94d2cac737">
-    <name>ВидАттракционов</name>
+    <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>
-      <value>Вид аттракционов</value>
+      <value>Вид аттракциона</value>
     </synonym>
     <type>
       <types>CatalogRef.ВидАттракционов</types>

@@ -36,13 +36,13 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="e09fcc3b-efa4-4a9e-a5da-098cae8a3cbc">
-    <name>Аттракцион</name>
+    <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>
-      <value>Аттракцион</value>
+      <value>Вид аттракциона</value>
     </synonym>
     <type>
-      <types>CatalogRef.Аттракционы</types>
+      <types>CatalogRef.ВидАттракционов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
