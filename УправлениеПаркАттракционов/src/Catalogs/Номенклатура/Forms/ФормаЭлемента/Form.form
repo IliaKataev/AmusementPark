@@ -205,7 +205,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВидАттракционов</name>
+    <name>ВидАттракциона</name>
     <id>13</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -216,7 +216,7 @@
       <segments>Объект.ВидАттракциона</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВидАттракционовРасширеннаяПодсказка</name>
+      <name>ВидАттракционаРасширеннаяПодсказка</name>
       <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -231,7 +231,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВидАттракционовКонтекстноеМеню</name>
+      <name>ВидАттракционаКонтекстноеМеню</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>

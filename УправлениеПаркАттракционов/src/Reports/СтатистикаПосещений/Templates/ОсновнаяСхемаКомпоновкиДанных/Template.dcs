@@ -7,6 +7,13 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАттракциона</dataPath>
+			<field>ВидАттракциона</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоПосещенийНачальныйОстаток</dataPath>
 			<field>КоличествоПосещенийНачальныйОстаток</field>
 			<role>
@@ -16,6 +23,14 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПосещенийПриход</dataPath>
+			<field>КоличествоПосещенийПриход</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПосещенийРасход</dataPath>
+			<field>КоличествоПосещенийРасход</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоПосещенийКонечныйОстаток</dataPath>
 			<field>КоличествоПосещенийКонечныйОстаток</field>
 			<role>
@@ -23,14 +38,6 @@
 				<dcscom:balanceGroupName>КоличествоПосещений</dcscom:balanceGroupName>
 				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
 			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>КоличествоПосещенийПриход</dataPath>
-			<field>КоличествоПосещенийПриход</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>КоличествоПосещенийРасход</dataPath>
-			<field>КоличествоПосещенийРасход</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Период</dataPath>
@@ -44,20 +51,13 @@
 			<dataPath>Основание</dataPath>
 			<field>Основание</field>
 		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ВидАттракциона</dataPath>
-			<field>ВидАттракциона</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	АктивныеПосещенияОстаткиИОбороты.ВидАттракциона,
 	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийНачальныйОстаток,
-	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийКонечныйОстаток,
 	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийПриход,
 	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийРасход,
+	АктивныеПосещенияОстаткиИОбороты.КоличествоПосещенийКонечныйОстаток,
 	АктивныеПосещенияОстаткиИОбороты.Период
 ИЗ
 	РегистрНакопления.АктивныеПосещения.ОстаткиИОбороты(,, День,,) КАК АктивныеПосещенияОстаткиИОбороты</query>
@@ -179,7 +179,7 @@
 						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
 						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 					</dcscor:value>
-					<dcsset:userSettingID>1433d202-df45-4d2a-89ab-633d042d271a</dcsset:userSettingID>
+					<dcsset:userSettingID>b23066ff-132c-48f6-9595-57a548ac098a</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

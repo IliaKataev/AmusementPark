@@ -19,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>dbc6edaa-1ffa-49b1-8ef5-a19e2bed5167</id>
+		<id>8175093f-afbf-427a-81b3-a06f68ff9591</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -35,7 +35,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>26163be5-4baa-49ab-b51b-4d9992dbda27</id>
+		<id>51731a52-0254-40ef-9fb8-b2f76537bb6d</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -71,7 +71,7 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>dbc6edaa-1ffa-49b1-8ef5-a19e2bed5167</columnsID>
+			<columnsID>8175093f-afbf-427a-81b3-a06f68ff9591</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -96,24 +96,28 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>26163be5-4baa-49ab-b51b-4d9992dbda27</columnsID>
-			<formatIndex>7</formatIndex>
+			<columnsID>51731a52-0254-40ef-9fb8-b2f76537bb6d</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>8</f>
+					<f>7</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Тип билета</v8:content>
+							<v8:content>Тип билета:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>8</f>
 					<parameter>Номенклатура</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
 				</c>
 			</c>
 		</row>
@@ -121,7 +125,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>26163be5-4baa-49ab-b51b-4d9992dbda27</columnsID>
+			<columnsID>51731a52-0254-40ef-9fb8-b2f76537bb6d</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -129,7 +133,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Кол-во посещений</v8:content>
+							<v8:content>Количеество посещений:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -145,22 +149,22 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>26163be5-4baa-49ab-b51b-4d9992dbda27</columnsID>
+			<columnsID>51731a52-0254-40ef-9fb8-b2f76537bb6d</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>8</f>
+					<f>12</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма документа</v8:content>
+							<v8:content>Сумма документа:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>13</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
@@ -203,7 +207,7 @@
 		<width>640</width>
 	</format>
 	<format>
-		<width>128</width>
+		<width>162</width>
 	</format>
 	<format>
 		<width>144</width>
@@ -219,22 +223,23 @@
 	</format>
 	<format>
 		<font>1</font>
-	</format>
-	<format>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
-		<horizontalAlignment>Left</horizontalAlignment>
+		<font>1</font>
 		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Block</textPlacement>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
-		<width>128</width>
+		<font>1</font>
+	</format>
+	<format>
+		<width>144</width>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
@@ -247,6 +252,12 @@
 		<textPlacement>Block</textPlacement>
 		<fillType>Parameter</fillType>
 		<format/>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6987c9b3-a591-4877-9cd8-c83c4073f5db">
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4803a700-73ab-46fe-b2b7-38acbdaf08f6">
   <name>НомераТелефоновКлиентСервер</name>
   <synonym>
     <key>ru</key>
