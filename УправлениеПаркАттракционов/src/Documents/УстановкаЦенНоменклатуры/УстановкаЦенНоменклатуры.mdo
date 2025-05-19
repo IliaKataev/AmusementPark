@@ -64,7 +64,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="e7ec3bd7-f2f2-42cd-b48c-ef8b81c4776e">
+  <forms uuid="355e342b-1ec0-496f-9db8-ae58cbc84691">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -73,7 +73,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="0afa8906-9efa-47bc-995e-ccd1790e266d">
+  <forms uuid="d143780b-b8d6-46a6-a8f0-4c7847e38791">
     <name>ФормаЗагрузкиИзФайла</name>
     <synonym>
       <key>ru</key>

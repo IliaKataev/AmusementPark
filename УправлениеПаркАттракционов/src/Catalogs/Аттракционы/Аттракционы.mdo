@@ -50,7 +50,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0853fdf4-5685-4d3e-b80a-1cadae39ad4f">
+  <attributes uuid="f7041286-b730-4420-8ff2-bf3d45119b49">
     <name>Фото</name>
     <synonym>
       <key>ru</key>
@@ -65,7 +65,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="40d23474-68b9-4de1-b7d7-78e4fa194ee8">
+  <forms uuid="6a8cd0a1-28b0-49ef-9222-20b35e0a6788">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
