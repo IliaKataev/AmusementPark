@@ -10,6 +10,9 @@
     "right-start-external-connection": {
       "enabled": false
     },
+    "module-region-empty": {
+      "enabled": false
+    },
     "role-right-has-rls": {
       "enabled": false
     },
@@ -22,10 +25,10 @@
     "right-start-automation": {
       "enabled": false
     },
-    "right-active-users": {
+    "right-delete": {
       "enabled": false
     },
-    "right-delete": {
+    "right-active-users": {
       "enabled": false
     },
     "right-interactive-set-deletion-mark-predefined-data": {

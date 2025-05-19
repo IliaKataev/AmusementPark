@@ -40,10 +40,10 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
+	ПосещенияАттракционовОбороты.Период,
 	ПосещенияАттракционовОбороты.Аттракцион,
 	ПосещенияАттракционовОбороты.Клиент,
-	ПосещенияАттракционовОбороты.КоличествоОборот КАК КоличествоПосещений,
-	ПосещенияАттракционовОбороты.Период
+	ПосещенияАттракционовОбороты.КоличествоОборот КАК КоличествоПосещений
 ИЗ
 	РегистрНакопления.ПосещенияАттракционов.Обороты(,, День,) КАК ПосещенияАттракционовОбороты</query>
 	</dataSet>
@@ -114,15 +114,9 @@
 					<dcscor:value xsi:type="v8:StandardPeriod">
 						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
 					</dcscor:value>
-					<dcsset:userSettingID>a75227c6-81f8-4b05-a144-2762f50c2f01</dcsset:userSettingID>
+					<dcsset:userSettingID>2751ad6a-b0cd-459b-9e68-28f019bcf97c</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
-			<dcsset:outputParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:ChartType">Column</dcscor:value>
-				</dcscor:item>
-			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemChart">
 				<dcsset:point>
 					<dcsset:groupItems>
@@ -153,6 +147,27 @@
 					<dcsset:selection>
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Период</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Формат</dcscor:parameter>
+									<dcscor:value xsi:type="v8:LocalStringType">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДЛФ=D</v8:content>
+										</v8:item>
+									</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+					</dcsset:conditionalAppearance>
 				</dcsset:series>
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
